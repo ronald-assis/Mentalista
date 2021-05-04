@@ -1,0 +1,136 @@
+:root{
+    --color-first: #191970
+    
+}
+
+body{
+    background-image: url(http://divisaoalfa.com.br/wp-content/uploads/2019/01/934714.jpg);
+    font-family: 'Indie Flower', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: 4px 4px 0;
+    background-color: rgb(184, 133, 231);
+    color: black;
+}
+
+.the-mentalist{
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    animation-duration: 0.5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes slidein {
+    from {
+        
+        transform: scale(1);
+    }
+  
+    to {
+        transform: scale(1.04);
+    }
+}
+
+
+#titulo-dois{
+    color: rgb(0, 0, 0);
+    font-family: "Bangers", cursive;
+    border: 6px solid #790320;
+    padding: 0px 10px;
+    text-shadow: 2px 2px #790320 ;
+    
+
+    
+}
+#titulo-um{
+    font-family: "Bangers", cursive;
+    margin-right: 20px;
+    text-shadow: 2px 2px #790320;
+}
+
+p{
+    font-size: 40px;
+    text-shadow:1px 1px #790320;
+    margin: 10px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(2, 65, 117, 0.37);
+    border: 5px solid rgb(0, 26, 48);
+    border-radius: 5px;
+    margin: 10px;
+    height: 180px;
+    width: 450px;
+}
+
+h2{
+    color: #000000;
+    display: flex;
+    font-family:"Bangers", cursive;
+    margin-bottom: 1px;
+    font-size: 25px;
+    text-shadow: 2px 2px #790320;
+    border: 3px solid #000000;
+    border-radius: 30%;
+}
+
+input{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin-top: 5px;
+    height: 23px;
+    width: 270px;
+    border-radius: 0;
+    border: 2px solid #790320;
+
+}
+#botao-confirmar{
+    font-family: "Bangers", cursive;
+    height: 30px;
+    width: 277px;
+    border-radius: 0px;
+    border: none;
+    background-color: #000000;
+    color: #790320;
+    font-size: 20px;
+    margin-top: 6px;
+    box-shadow: 3px 3px;
+    transition: transform 117ms ease-in-out;
+}
+#botao-confirmar:hover{
+    transform: scale(1.05);
+
+}
+#reset{
+    font-size: 15px;
+    font-family: "Bangers", cursive;
+    margin-top: 15px;
+    padding: 2px 7px;
+    border-radius: 0px;
+    border: none;
+    background-color: #790320;
+    box-shadow: 3px 3px;
+    transition: transform 112ms ease-in-out
+}
+#reset:hover{
+    transform: scale(1.05);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+}
